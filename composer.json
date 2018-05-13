@@ -10,5 +10,10 @@
             "name": "Chibuike Emmauel Osita",
             "email": "mozart.osita@gmail.com"
         }
-    ]
+	],
+	"autoload": {
+		"psr-0": {
+			"Legobox\\QuickTraits\\": "src/"
+		}
+	}
 }
