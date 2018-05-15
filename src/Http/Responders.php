@@ -5,11 +5,8 @@ namespace Legobox\QuickTraits\Http;
 trait Responders {
 	public function done($response, $message = null, $code = null){
 		$array = ['status'=>'success','code'=>'200'];
-		$array[] = [
-			'data' => $response
-		];
-		$code != null ? $array[] = ['code' => $code ] : $array;
-		
+		$array['data'] = $response;
+		$code != null ? $array['code'] = $code : $array;
 		// $resp = array_merge($array,);
 		return response()->json($array);
 	}
