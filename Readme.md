@@ -10,11 +10,3 @@ Building apps tend to have and require so many steps that can be considered deep
 $ composer install legobox-co/quick-traits
 ```
 
-### Controllers
-
-### Http
-
-### Authentication
-
-### Crud
-
